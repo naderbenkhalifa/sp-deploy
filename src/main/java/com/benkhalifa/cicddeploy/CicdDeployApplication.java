@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CicdDeployApplication {
 	 @GetMapping("/")
 	 public String home() {
-		 return "Welcome To Docker!";
+		 return "Welcome To Docker1!";
 	 }
 
 	public static void main(String[] args) {
