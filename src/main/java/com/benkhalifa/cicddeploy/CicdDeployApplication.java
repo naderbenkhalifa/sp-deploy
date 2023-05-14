@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class CicdDeployApplication {
-	 @GetMapping("/")
+	 @GetMapping("/java")
 	 public String home() {
 		 return "Welcome To Docker1!";
 	 }
